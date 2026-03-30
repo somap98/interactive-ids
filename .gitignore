@@ -1,0 +1,14 @@
+data/*.csv
+data/*.parquet
+data/*.zip
+data/aggregated/
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+node_modules/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
