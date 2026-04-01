@@ -11,11 +11,8 @@
 <body>
     <header>
         <h1>Interactive Intrusion Detection System</h1>
-        <span class="subtitle">Bayesian Online Changepoint Detection Explorer</span>
         <div id="status-bar">
             <span id="status-dataset">Dataset: --</span>
-            <span id="status-points">Points: --</span>
-            <span id="status-time">Computation: --</span>
         </div>
     </header>
 
@@ -55,18 +52,6 @@
                 </label>
             </section>
 
-            <section class="control-group">
-                <h3>Display</h3>
-                <label class="checkbox-label">
-                    <input type="checkbox" id="toggle-attacks" checked> Attack labels
-                </label>
-                <label class="checkbox-label">
-                    <input type="checkbox" id="toggle-bands" checked> Confidence bands
-                </label>
-                <label class="checkbox-label">
-                    <input type="checkbox" id="toggle-changepoints" checked> Changepoints
-                </label>
-            </section>
 
             <section class="control-group">
                 <h3>Feature Ranking</h3>
@@ -77,14 +62,13 @@
         <!-- Main Content -->
         <main>
             <div id="timeseries-container" class="chart-panel">
-                <h3>Network Traffic Time Series <span id="ts-feature-label"></span></h3>
+                <h3>Network Traffic Time Series</h3>
                 <div id="timeseries-chart"></div>
-                <div id="context-chart"></div>
             </div>
 
             <div class="bottom-row">
                 <div id="heatmap-container" class="chart-panel">
-                    <h3>Run-Length Posterior (PPD Heatmap)</h3>
+                    <h3>PPD Heatmap</h3>
                     <div id="heatmap-chart"></div>
                 </div>
 
@@ -97,18 +81,11 @@
         </main>
     </div>
 
-    <!-- Loading overlay -->
     <div id="loading-overlay" class="hidden">
         <div class="spinner"></div>
         <span>Computing...</span>
     </div>
 
-    <!-- Scripts -->
-    <script src="js/utils.js"></script>
-    <script src="js/timeseries.js"></script>
-    <script src="js/heatmap.js"></script>
-    <script src="js/network.js"></script>
-    <script src="js/controls.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
