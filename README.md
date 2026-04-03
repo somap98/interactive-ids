@@ -31,4 +31,6 @@ python backend/app.py
 4. Once you run the command above, go to http://localhost:5000 in your browser. It uses Flask so it most likely uses the 5000 port but it also shows in the terminal which port it uses.
 
 Here is how the tool should look like after you get it running on your machine:
-<img width="1900" height="782" alt="image" src="https://github.com/user-attachments/assets/65c9c7a8-7ef2-496f-b154-be288ac36b9b" />
+
+<img width="1911" height="892" alt="image" src="https://github.com/user-attachments/assets/62d9670b-0f71-4d95-8233-e488e26d8f4e" />
+
