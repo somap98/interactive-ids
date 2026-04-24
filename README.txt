@@ -51,6 +51,8 @@ Or we added a requirements.txt file to make downlading all the packages a lot ea
 
 Step 2 - Download CIC-IDS2017 dataset
 
+There is a lot of files to download and they are quite lage.
+
 Download the parquet files from Kaggle:
 
     https://www.kaggle.com/datasets/dhoogla/cicids2017
